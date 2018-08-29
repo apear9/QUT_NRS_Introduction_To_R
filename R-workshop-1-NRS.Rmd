@@ -111,7 +111,15 @@ If you're seeing something like the above, everything is fine.
 
 ## Writing out data
 
+You can take an object inside R and write it to a spreadsheet-like file by using
 
+```{r, eval = FALSE}
+write.csv(
+  x = meuse,
+  file = "a_new_csv.csv",
+  row.names = FALSE
+)
+```
 
 ## A more formal introduction to data structures in R
 
